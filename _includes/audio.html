@@ -1,0 +1,17 @@
+    <audio class="sticky-audio" controls id="audioPlayer">
+      <source src="{{ include.src }}" type="audio/mpeg">
+      Trình duyệt của bạn không hỗ trợ thẻ audio.
+    </audio>
+    <script>
+        // Hàm cập nhật padding-bottom cho body
+        function updatePaddingBottom() {
+          var audioHeight = document.getElementById('audioPlayer').offsetHeight;
+          document.body-inner.style.paddingBottom = audioHeight + 'px';
+          }
+        
+        // Cập nhật padding-bottom khi trang tải xong
+        window.onload = updatePaddingBottom;
+        
+        // Cập nhật padding-bottom khi kích thước cửa sổ thay đổi
+        window.onresize = updatePaddingBottom;
+        </script>
