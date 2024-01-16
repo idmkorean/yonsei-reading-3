@@ -1,7 +1,7 @@
 ---
 title: 노벨 이야기
 author: Nvt Idm
-date: 2024-01-15
+date: 2024-01-10
 category:
 layout: post
 cover: assets/media/yonsei-reading-3-1-1.jpg
