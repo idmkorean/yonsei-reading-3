@@ -1,5 +1,5 @@
 ---
-title: 세계안의 취미
+title: 세계인의 취미
 author: Nvt Idm
 date: 2024-01-11
 category:
